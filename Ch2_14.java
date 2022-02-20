@@ -1,6 +1,5 @@
 //Health application: computing BMI
-//	by: MYKAYLA SILAR
-package edu.gsu.cis.chapter02;
+package Assignment1;
 import java.util.Scanner;
 public class Ch2_14 {
 	public static void main(String[] args) {

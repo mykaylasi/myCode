@@ -1,6 +1,5 @@
 //Convert Celsius to Fahrenheit
-// 	by: MYKAYLA SILAR
-package edu.gsu.cis.chapter02;
+package Assignment1;
 import java.util.Scanner;
 public class Ch2_1 {
 	public static void main(String[] args) {

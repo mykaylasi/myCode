@@ -1,6 +1,5 @@
 // Average speed in kilometers
-// 	by: MYKAYLA SILAR
-package edu.gsu.cis.chapter01;
+package Assignment1;
 
 public class Ch1_12 {
 	public static void main(String[] args) {

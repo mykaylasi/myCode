@@ -1,6 +1,5 @@
 //Science: calculating energy
-//	by: MYKAYLA SILAR
-package edu.gsu.cis.chapter02;
+package Assignment1;
 import java.util.Scanner;
 public class Ch2_10 {
 	public static void main(String[] args) {

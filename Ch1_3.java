@@ -1,6 +1,5 @@
 //Display a pattern
-// 	by: MYKAYLA SILAR
-package edu.gsu.cis.chapter01;
+package Assignment1;
 
 public class Ch1_3 {
 	

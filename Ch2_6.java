@@ -1,26 +1,21 @@
-/**Sum the digits in an integer
- * By: MyKayla Silar
- */
-package chapter2;
+//Sum the digits in an integer
+package Assignment1;
 import java.util.Scanner;
 public class Ch2_6 {
 	public static void main(String[] args) {
-	
-	Scanner input = new Scanner(System.in);
-	System.out.print("Enter an integer between 0 and 1000: ");
-	int number = input.nextInt();
-	
-	int lastNumber = number % 10;
-	
-	int withoutLast = number / 10;
-	int middleNumber = withoutLast % 10;
-	
-	int firstNumber = number / 100;
-
-	
-	int together = lastNumber + middleNumber + firstNumber;
-	System.out.println("The sum of all digits in " + number + " is " + together);
-	
+		System.out.print("Enter an integer between 0 and 1000: ");
+		Scanner input = new Scanner(System.in);
+		int num = input.nextInt();
+		
+		int end = num % 10;
+		int div = num / 10;
+		int middle = div % 10;
+		int begin = num / 100;
+		
+		
+		int sum = end + middle + begin;
+		
+		System.out.println("The sum of all digits in " + num + " is " + sum);
 	}
 
 }

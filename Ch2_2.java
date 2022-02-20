@@ -1,6 +1,5 @@
+package Assignment1;
 //Compute the volume of a cylinder
-//	by: MYKAYLA SILAR
-package edu.gsu.cis.chapter02;
 import java.util.Scanner;
 public class Ch2_2 {
 	public static void main(String[] args) {

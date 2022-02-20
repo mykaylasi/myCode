@@ -1,6 +1,5 @@
 //Display three messages
-// 	by: MYKAYLA SILAR
-package edu.gsu.cis.chapter01;
+package Assignment1;
 
 public class Ch1_1 {
 	public static void main(String[] args) {

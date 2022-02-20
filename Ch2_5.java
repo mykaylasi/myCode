@@ -1,22 +1,19 @@
-/** Financial application: calculate tips
- By: MyKayla Silar
- */
-package chapter2;
+package Assignment1;
+//Financial application: calculate tips
 import java.util.Scanner;
 public class Ch2_5 {
-	
 	public static void main(String[] args) {
-		
-		Scanner input = new Scanner(System.in);
-		System.out.print("Enter subtotal and gratuity rate: ");
-		
-		double subtotal = input.nextDouble();
-		double rate = (input.nextDouble()) / 100;
-		
-		double gratuity = rate * subtotal;
-		double total = gratuity + subtotal;
-		System.out.printf("The gratuity is $" + "%.2f",gratuity);
-		System.out.printf("\nThe total is $" + "%.2f",total);
+		System.out.println("Enter the subtotal and a gratuity rate: ");
+        Scanner input = new Scanner(System.in);
+        double subtotal = input.nextDouble();
+        double gratuity = input.nextDouble();
+        
+        gratuity = subtotal * (gratuity / 100);
+       
+        
+        double total = subtotal + gratuity;
+        
+        System.out.println("The gratuity is $" + gratuity + " and total is $" + total );
 	}
 
 }
