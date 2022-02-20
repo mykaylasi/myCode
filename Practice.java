@@ -1,22 +1,33 @@
-package inClassExe;
-
+package homePractice;
+import java.util.Scanner;
 public class Practice {
-	public static void main(String[] args) {
-		// don't use doubles for money!
-		/** use int = dollars and int = cents so that you'll have whole
-		 * un-rounded numbers for each one (dollars and cents).
-		 * if you were to use double it would round the money. you want exact amounts. */
-		
-		
-		
-		double d = Math.sqrt(3);
-		
-		System.out.println(d);
-		 float x = 1000;
-		 
-		 System.out.println(x);
-		 System.out.println(System.currentTimeMillis());
 	
+	public static void main(String[] args)	{
+		
+		Scanner input = new Scanner(System.in);
+		
+		 int positive = 0, negative = 0, total = 0, count = 0;
+		 
+	        double average;
+	 
+	        System.out.print("Enter an integer, the input ends if it is 0:");
+	        int number = input.nextInt();
+	 
+	        while ((number = input.nextInt()) != 0) {
+	            total += number;
+	            count++;
+	            if (number > 0) {
+	                positive++;
+	            } else if (number < 0) {
+	                negative++;
+	            }
+	        }
+	        average = (double) total / count;
+	        System.out.println("The number of positives is " + positive);
+	        System.out.println("The number of negatives is " + negative);
+	        System.out.println("The total is " + (double) total);
+	        System.out.println("The average is " +  String.format("%.2f", average));
+	 
 		
 	}
 
